@@ -7,11 +7,11 @@ public class Principal
 		{
 			// args[0] correspond a l'argument 2 de la commande java
 		
-			String myMessage = "Helloworld";
-      
+			String myMessage = "Helloworld " + args[0];
+
 			System.out.println("----------------------------------------------------");
 			System.out.println("Output : " + myMessage );		
 			System.out.println("----------------------------------------------------");		
 		}
-
+  }
 }
